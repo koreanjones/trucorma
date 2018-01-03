@@ -1,9 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5%;
-    background-color: #e94c23;
+    background-color:#e94c23;
+    margin-top: 2%;
+   
 }
 #box {
+    
     background-color: white;
     padding: 5%;
     max-width: 750px;
@@ -11,10 +13,20 @@ body {
     height: auto;
     border: 1px solid black;
     box-shadow: 10px 10px 50px 0px;
-    margin: auto;
+    margin: 3% auto;
 }
 form {
     margin: auto;
+}
+#legaljargon {
+    
+    color: white;
+    max-width: 750px;
+    width: 75%;
+    height: auto;
+    margin: 0 auto 10px auto;
+    padding-bottom: 10%;
+    padding-top: 1%;
 }
 .label {
     margin: 10px;
