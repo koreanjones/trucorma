@@ -7,7 +7,8 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <title>Truco Form 2</title>
-
+    <script src="http://cdn.jsdelivr.net/timepicker.js/latest/timepicker.min.js"></script>
+    <link href="http://cdn.jsdelivr.net/timepicker.js/latest/timepicker.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="truco.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <script
@@ -96,7 +97,7 @@
                     <option value="ORIG MED">ORIG MED</option> 
                     <option value="ORIG MILD">ORIG MILD</option>
                     <option value="RANCH">RANCH</option>
-                    <option value="Rounds">ROUNDS</option>
+                    <option value="ROUNDS">ROUNDS</option>
                     <option value="SALSA VERDE">SALSA VERDE</option>
                     <option value="STRIPS">STRIPS</option>
                     <option value="THINS">THINS</option>
@@ -150,18 +151,14 @@
             
             <div class="label">
                 <label>Military Time</label><br>
-                <input type="time" value="" name="militaryTime">
-            </div>
-            <div class="label">
-                <label for="">Calculated Batch code</label><br>
-                <input type="text" value="" name="calculatedBatchCode">
+                <input type="text" id="time" placeholder="HH:MM">
             </div>
            <div class="dropdown">
                 <label>Reasons</label><br>
                 <select name="Size">
                     <option value="">Code Date Expired</option>
-                    <option value="">Damage: Package</option>
-                    <option value="">Damage: Product</option>
+                    <option value="">Damage : Package</option>
+                    <option value="">Damage : Product</option>
                     <option value="">Member Return</option>
                     <option value="">Open Product</option>
                     <option value="">DC Overage</option>
